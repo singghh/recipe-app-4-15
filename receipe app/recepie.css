@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+#recipe-img{
+    width: 200px;
+    border-radius: 50%;
+}
+.recipe-box{
+    text-align: center;
+    width: 440px;
+    max-height: 90%;
+    background-color: #00aeef;
+    padding-top: 50px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+.recipe-box-2{
+    text-align: center;
+    width: 440px;
+    max-height: 100%;
+    background-color: #00aeef;
+    padding-top: 50px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+    color: white;
+    
+}
+#recepie-name{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    letter-spacing: 0.9px;
+    padding: 25px 25px;
+    
+}
+#search-recipe{
+    padding: 10px 3px 10px 10px;
+    width: 240px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+#search-b{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 4px;
+    letter-spacing: 0.7px;
+}
+#search-button{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+#Ingredients{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.ingres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+
+#recepie-ingre1{
+    text-align: left;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    text-transform: capitalize;
+}
+#recepie-ingre2{
+    text-align: left;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+}
+.ins{
+    padding: 30px;
+    display: flex;
+    justify-content: right;
+}
+#instruction{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #00aeef;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    background-color: white;
+}
+#notfound{
+    border: 2px solid;
+    position: absolute;
+    left: 70px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    top: 180px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+#notfound p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}

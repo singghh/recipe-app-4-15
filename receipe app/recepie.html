@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="/recepie.css">
+    <link rel="icon" href="https://www.pngitem.com/pimgs/m/623-6238143_free-recipe-pedia-is-a-site-for-sharing.png">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="recipe-box">
+            <div id="search-button">
+                    <input type="text" id="search-recipe">
+                    <button id="search-b" onclick="fetchdata1()">Search</button>
+            </div><br>
+            <img src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg" alt="recipe" id="recipe-img">
+            <p id="recepie-name">Spicy Arrabiata Penne</p>
+            <p id="Ingredients">Ingredients</p>
+            <div id="notfound">
+                <p>Not Found</p>
+            </div>
+        <div class="ingres">
+            <div id="recepie-ingre1">
+                <p>penne rigate</p>
+                <p>olive oil</p>
+                <p>garlic</p>
+                <p>chopped tomatoes</p>
+                <p>red chile flakes</p>
+                <p>italian seasoning</p>
+                <p>basil</p>
+                <p>Parmigiano-Reggiano</p>
+                
+            </div>
+            <div id="recepie-ingre2">
+                <p>1 pound</p>
+                <p>1/4 cup</p>
+                <p>3 cloves</p>
+                <p>1 tin</p>
+                <p>1/2 teaspoon</p>
+                <p>1/2 teaspoon</p>
+                <p>6 leaves</p>
+                <p>spinkling</p>
+            </div>
+        </div>
+    <div class="ins">
+        <button id="instruction" onclick="showdata()">Show Instruction</button>
+    </div>
+        </div>
+        <div class="recipe-box-2" style="display: none;">
+            <p></p>
+        </div>
+        
+    </div>
+    <script src="recepie.js"></script>
+</body>
+</html>
